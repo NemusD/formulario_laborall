@@ -1,7 +1,10 @@
+/*Default*/
+/* * {
+  background-color: #d86427;
+} */
+
 .App {
   text-align: center;
-  padding: 2rem;
-  /* background-color: #ee9e54; */
 }
 
 .App-logo {
@@ -11,44 +14,91 @@
 
 /*Navbar*/
 .navbar {
-  background-color: #ee9e54;
-  /* border-style: dashed; */
+  background-color: #ccc !important;
+  font-size: 14px;
 }
+
+.navbar-brand {
+  padding: 20px;
+}
+
+/*HeroSection*/
+#Hero-Section {
+  background-image: url(../public/images/bg-hero2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: #FFFFFF;
+  padding: 20px;
+  align-items: center;
+  font-size: 20px;
+  
+}
+
 /*Formulario*/
 #postulacion {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1rem ;
-  border: 1px solid #c4acacfa;
-  border-radius: 5px;
-  background-color: #ee9e54;
+  border: 2px solid #333;
+  border-radius: 15px;
+  background-color: #f2f2f2;
 }
+
 /*Estilo para las etiquetas y campos de entrada*/
 label {
-  display: block;
   margin-bottom: 1rem;
   font-weight: bold;
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 10px;
 }
+
 /*Estilo de los inputs*/
-input[type="text"], input[type="email"], input[type="date"], select {
-  width: 60%;
-  padding: 0.5em;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 14px;
+input[type="text"], 
+input[type="email"], 
+input[type="date"],
+input[type="file"], 
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #999;
+  border-radius: 15px;
+  background-color: #f2f2f2;
 }
+
 /*Estilo botón enviar*/
 button[type="submit"] {
   background-color: #06cc27;
   border: none;
-  border-radius: 14px;
-  padding: 10px 20px;
+  border-radius: 15px;
+  padding: 15px 30px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
+  color: #fff;
 }
 
 button[type="submit"]:hover {
   background-color: #0624cc;
   color: whitesmoke;
+}
+
+/*Footer*/
+#footer {
+  background-color: #d86427;
+}
+
+.col-lg-3 , .col-lg-12{
+  margin-top: 2rem;
+  padding: 0.5rem;
+  color: whitesmoke;
+}
+
+.center-image {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
 }
