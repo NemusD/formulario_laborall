@@ -9,7 +9,7 @@ function HeroSection() {
                     <h1 className="text-uppercase">Trabaja con nosotros</h1>
                     <p className="text-uppercase">Únete a nuestro equipo de trabajo</p>
                     <button type="button" className="btn btn-outline-info btn-sm text-uppercase" onClick={() => {
-                        const formulario = document.getElementById("formulario");
+                        const formulario = document.getElementById("postulacion");
                         if (formulario) {
                             formulario.scrollIntoView({ behavior: "smooth" });
                         }

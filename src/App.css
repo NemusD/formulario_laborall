@@ -71,7 +71,8 @@ select {
 
 /*Estilo botón enviar*/
 button[type="submit"] {
-  background-color: #06cc27;
+  background-color: #d86427;
+  width: 90%;
   border: none;
   border-radius: 15px;
   padding: 15px 30px;
@@ -82,8 +83,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0624cc;
-  color: whitesmoke;
+  background-color: #06cc27 ;
+  color: #fff;
 }
 
 /*Footer*/
@@ -101,4 +102,16 @@ button[type="submit"]:hover {
   display: flex;
   margin: 0 auto;
   align-items: center;
+}
+
+/*Mensaje de error*/
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+/*input-no*/
+.input-no {
+  background-color: #dddddd !important;
+  color: #888888;
 }
